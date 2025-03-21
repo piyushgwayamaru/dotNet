@@ -1,0 +1,74 @@
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 489 bytes | 489.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'developer' on GitHub by visiting:
+remote:      https://github.com/piyushgwayamaru/dotNet/pull/new/developer
+remote:
+To https://github.com/piyushgwayamaru/dotNet.git
+ * [new branch]      developer -> developer
+branch 'developer' set up to track 'origin/developer'.
+PS E:\dotnet> git status
+On branch developer
+Your branch is up to date with 'origin/developer'.
+
+nothing to commit, working tree clean
+PS E:\dotnet> python calculation.py
+Enter the first number: 2
+Enter the second number: 882
+Sum: 884.0
+PS E:\dotnet> git log
+commit 48e091e9f065192c279717a5de97f392e564b09f (HEAD -> developer, origin/developer)
+Author: Piyush Gwayamaru <shresthpiyusha@gmail.com>
+Date:   Fri Mar 21 13:01:11 2025 +0545
+
+    change to new branch
+
+commit 8aee68e531716665c7b32ff8603e9401fe48a43f (origin/master, master)
+Author: Piyush Gwayamaru <shresthpiyusha@gmail.com>
+Date:   Fri Mar 21 12:44:30 2025 +0545
+
+    text.txt updated
+
+commit d3b530d2aaa3661077e0a6a0daefe63b84c7aa1e
+Author: Piyush Gwayamaru <shresthpiyusha@gmail.com>
+Date:   Fri Mar 21 12:37:19 2025 +0545
+
+    initial commit
+PS E:\dotnet> git branch test
+PS E:\dotnet> git switch test
+Switched to branch 'test'
+PS E:\dotnet> git status
+On branch test
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        newtest/
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS E:\dotnet> git add newtest/
+PS E:\dotnet> git status
+On branch test
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   newtest/testing.py
+
+PS E:\dotnet> git commit -m "folder updated"
+[test f445313] folder updated
+ 1 file changed, 10 insertions(+)
+ create mode 100644 newtest/testing.py
+PS E:\dotnet> git status
+On branch test
+nothing to commit, working tree clean
+PS E:\dotnet> git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+PS E:\dotnet> git checkout test
+Switched to branch 'test'
+PS E:\dotnet> git push -u origin test
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 574 bytes | 574.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
