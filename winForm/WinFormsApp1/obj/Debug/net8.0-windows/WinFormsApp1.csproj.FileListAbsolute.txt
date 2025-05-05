@@ -20,7 +20,6 @@ E:\dotnet\winForm\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.deps.json
 E:\dotnet\winForm\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.runtimeconfig.json
 E:\dotnet\winForm\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.dll
 E:\dotnet\winForm\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.pdb
-E:\dotnet\winForm\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources
 E:\dotnet\winForm\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.GenerateResource.cache
 E:\dotnet\winForm\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
 E:\dotnet\winForm\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
@@ -32,3 +31,4 @@ E:\dotnet\winForm\WinFormsApp1\obj\Debug\net8.0-windows\refint\WinFormsApp1.dll
 E:\dotnet\winForm\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.pdb
 E:\dotnet\winForm\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
 E:\dotnet\winForm\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll
+E:\dotnet\winForm\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Calculator.resources

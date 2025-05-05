@@ -1,8 +1,8 @@
 namespace WinFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class Calculator : Form
     { //2 label, 2 txtbox, password change by *
-        public Form1()
+        public Calculator()
         {
             InitializeComponent();
             textBox1.Text = "";
